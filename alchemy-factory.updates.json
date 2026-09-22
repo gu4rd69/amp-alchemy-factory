@@ -1,10 +1,10 @@
 [
-    {
-        "UpdateStageName": "Config File Download",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "4550060",
-        "UpdateSourceArgs": "3669570",
-        "ForceDownloadPlatform": "Windows"
-    }
+  {
+    "UpdateStageName": "Alchemy Factory Linux Server Download",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "SteamCMD",
+    "UpdateSourceData": "2984570",
+    "UpdateSourceArgs": "",
+    "ForcedDownloadPlatform": "Linux"
+  }
 ]
