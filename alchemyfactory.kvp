@@ -5,9 +5,12 @@ GenericModule.Meta.Category=Games
 
 Application.Name=Alchemy Factory Dedicated Server
 GenericModule.AppExe=alchemyfactory/Binaries/Win64/AlchemyFactoryServer-Win64-Shipping.exe
-GenericModule.AppArgs=-log -Port={{GenericModule.GamePort}} -QueryPort={{GenericModule.QueryPort}}
+
+# Hier werden die Ports und die neuen Einstellungs-Variablen an die Exe übergeben
+GenericModule.AppArgs=-log -Port={{GenericModule.GamePort}} -QueryPort={{GenericModule.QueryPort}} -ServerName="{{GenericModule.CustomSettings.ServerName}}" -Password="{{GenericModule.CustomSettings.ServerPassword}}" -MaxPlayers={{GenericModule.CustomSettings.MaxPlayers}}
+
 GenericModule.StartMatch=Server-Win64-Shipping.exe
 GenericModule.KillMatch=AlchemyFactoryServer
 
-# Einstellungen für das Webinterface
+# Aktiviert das SteamCMD-Verhalten im Interface
 GenericModule.ConfigCustomFlags=SteamCMD
