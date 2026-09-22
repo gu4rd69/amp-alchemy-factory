@@ -1,7 +1,7 @@
 [
   {
-    "Name": "DummyPort",
-    "Description": "Main Game Port placeholder",
+    "Name": "MainGamePort",
+    "Description": "Alchemy Factory Game Port",
     "DefaultSetting": 7779,
     "Protocol": "UDP"
   }
