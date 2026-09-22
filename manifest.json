@@ -1,8 +1,0 @@
-{
-  "ManifestVersion": 1,
-  "Name": "Alchemy Factory Template",
-  "Author": "gu4rd69",
-  "Description": "Generic template for Alchemy Factory savegame backup and management.",
-  "URL": "https://github.com",
-  "Prefix": "alchemy-factory"
-}
