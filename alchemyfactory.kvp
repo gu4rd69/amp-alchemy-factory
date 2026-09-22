@@ -1,0 +1,13 @@
+# --- Alchemy Factory AMP Template ---
+GenericModule.Meta.AppConfigId=alchemyfactory
+GenericModule.Meta.DisplayName=Alchemy Factory Dedicated Server
+GenericModule.Meta.Category=Games
+
+Application.Name=Alchemy Factory Dedicated Server
+GenericModule.AppExe=alchemyfactory/Binaries/Win64/AlchemyFactoryServer-Win64-Shipping.exe
+GenericModule.AppArgs=-log -Port={{GenericModule.GamePort}} -QueryPort={{GenericModule.QueryPort}}
+GenericModule.StartMatch=Server-Win64-Shipping.exe
+GenericModule.KillMatch=AlchemyFactoryServer
+
+# Einstellungen für das Webinterface
+GenericModule.ConfigCustomFlags=SteamCMD
