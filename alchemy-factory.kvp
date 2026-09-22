@@ -1,5 +1,5 @@
 Meta.DisplayName=Alchemy Factory Server
-Meta.Description=Dedicated Server for Alchemy Factory (Skript-Mode)
+Meta.Description=Dedicated Server for Alchemy Factory (Inline Mode)
 Meta.OS=Linux
 Meta.Arch=x86_64
 Meta.Author=gu4rd
@@ -19,11 +19,11 @@ App.DisplayName=Alchemy Factory
 App.RootDir=./alchemy-factory/
 App.BaseDirectory=./alchemy-factory/
 App.StoresSupported=None
-App.ExecutableWin=start.sh
-App.ExecutableLinux=start.sh
+App.ExecutableWin=/bin/bash
+App.ExecutableLinux=/bin/bash
 App.WorkingDir=alchemy-factory
-App.LinuxCommandLineArgs=
-App.CommandLineArgs=
+App.LinuxCommandLineArgs=-c "echo '=== STARTE STEAMCMD DOWNLOAD ===' && /AMP/steamcmd/steamcmd.sh +force_install_dir /AMP/alchemy-factory/4550060 +login anonymous +app_update 4550060 validate +quit && echo '=== DOWNLOAD FERTIG - STARTE WINE SERVER ===' && /usr/bin/xvfb-run -a wine /AMP/alchemy-factory/4550060/AlchemyFactoryServer.exe -port 7780 -log"
+App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"/AMP/alchemy-factory/4550060/linux64:%LD_LIBRARY_PATH%","SteamAppId":"3669570","WINEPREFIX":"/AMP/alchemy-factory/.wine","WINEARCH":"win64","WINEDEBUG":"-all"}
 App.ExitMethod=OS_CLOSE
 App.ExitTimeout=30
