@@ -1,0 +1,44 @@
+{
+  "UpdateStages": [
+    {
+      "StageName": "SteamCMD Download",
+      "Type": "SteamCMD",
+      "AppID": 4550060,
+      "RunValidation": true,
+      "ForcePlatform": "Windows"
+    }
+  ],
+  "Sections": [
+    {
+      "Name": "AlchemyFactorySettings",
+      "DisplayName": "Alchemy Factory Einstellungen",
+      "Description": "Konfiguration für deinen Alchemie-Server",
+      "Category": "Game Settings",
+      "Settings": [
+        {
+          "Name": "ServerName",
+          "DisplayName": "Server-Name",
+          "Description": "Der Name, der in der Serverliste angezeigt wird.",
+          "Type": "String",
+          "DefaultValue": "Mein AMP Alchemy Server"
+        },
+        {
+          "Name": "ServerPassword",
+          "DisplayName": "Server-Passwort",
+          "Description": "Lass dieses Feld leer, wenn kein Passwort gewünscht ist.",
+          "Type": "String",
+          "DefaultValue": ""
+        },
+        {
+          "Name": "MaxPlayers",
+          "DisplayName": "Maximale Spieler",
+          "Description": "Wie viele Spieler gleichzeitig auf den Server dürfen.",
+          "Type": "Numeric",
+          "DefaultValue": 4,
+          "MinValue": 1,
+          "MaxValue": 16
+        }
+      ]
+    }
+  ]
+}
