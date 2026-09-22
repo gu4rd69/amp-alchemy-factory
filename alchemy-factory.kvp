@@ -11,7 +11,7 @@ Meta.ConfigRoot=alchemy-factory.kvp
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=cubecoders/ampbase:xvfb
 Meta.DockerRequired=True
-Meta.ContainerPolicy=Supported
+Meta.ContainerPolicy=Force
 Meta.ConfigVersion=1
 Meta.AppConfigId=cd3a7e82-9f49-4f6a-92fe-fbcf96be19f2
 
