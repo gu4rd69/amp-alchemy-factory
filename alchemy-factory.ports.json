@@ -1,8 +1,0 @@
-[
-  {
-    "Name": "MainGamePort",
-    "Description": "Alchemy Factory Game Port",
-    "DefaultSetting": 7780,
-    "Protocol": "UDP"
-  }
-]
