@@ -1,10 +1,8 @@
 [
-    {
-        "Protocol": "UDP",
-        "Port": 7779,
-        "Ref": "MainGamePort",
-        "Name": "Main Game Port",
-        "Description": "",
-        "Required": true
-    }
+  {
+    "Name": "DummyPort",
+    "Description": "Main Game Port placeholder",
+    "DefaultSetting": 7779,
+    "Protocol": "UDP"
+  }
 ]
