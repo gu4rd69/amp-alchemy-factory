@@ -1,13 +1,1 @@
-[
-    {
-        "DisplayName": "Alchemy Factory",
-        "Category": "Alchemy Factory:stadia_controller",
-        "Subcategory": "Server:dns:1",
-        "Description": "",
-        "Keywords": "alchemy,factory",
-        "FieldName": "AlchemyFactoryServer",
-        "InputType": "text",
-        "ParamFieldName": "AlchemyFactoryServer",
-        "DefaultValue": ""
-    }
-]
+[]
